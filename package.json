@@ -1,0 +1,29 @@
+{
+  "name": "smartbrain_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8130146/smartbrain_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8130146/smartbrain_api/issues"
+  },
+  "homepage": "https://github.com/8130146/smartbrain_api#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  }
+}
